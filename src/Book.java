@@ -12,10 +12,6 @@ public class Book {
         return this.age;
     }
 
-    public void setBookName(){
-        this.bookName = bookName;
-    }
-
     public void setAge (int age) {
         this.age = age;
     }
