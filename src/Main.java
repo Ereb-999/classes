@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
         Author gov = new Author("Говард", "Лафкрафт");
         Author lev = new Author("Лев", "Толстой");
-       Book necro = new Book("Некронамикон", 1938);
-        Book world = new Book("Война и мир", 1863);
+       Book necro = new Book("Некронамикон", 1938, gov);
+        Book world = new Book("Война и мир", 1863, lev);
        System.out.println("Книга: " + necro.getBookName());
         System.out.println("Автор: " + gov.getAuthorName() + " " + gov.getSurnameName());
        System.out.println("Год публикации: " + necro.getAge());

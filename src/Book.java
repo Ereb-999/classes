@@ -2,10 +2,10 @@ public class Book {
     private String bookName;
     private int age;
     private Author author;
-    public Book(String bookName, int age) {
+    public Book(String bookName, int age, Author author) {
         this.bookName = bookName;
         this.age = age;
-        this.author = getAuthor();
+        this.author = author;
     }
     public String getBookName(){
         return this.bookName;
